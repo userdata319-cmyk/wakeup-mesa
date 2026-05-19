@@ -1,7 +1,7 @@
 name: Supabase Heartbeat
 on:
   schedule:
-    - cron: "0 12 * * 1,4"  # Lunes y jueves al mediodía
+    - cron: "0 12 * * *"  # every day
   workflow_dispatch:
 
 jobs:
